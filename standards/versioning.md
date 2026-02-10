@@ -2,7 +2,7 @@
 
 ## Semantic Versioning
 
-All orobobos packages follow [Semantic Versioning 2.0.0](https://semver.org/):
+All ourochronos packages follow [Semantic Versioning 2.0.0](https://semver.org/):
 
 - **MAJOR** — Incompatible API changes
 - **MINOR** — Backwards-compatible new functionality

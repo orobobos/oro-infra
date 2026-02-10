@@ -1,8 +1,8 @@
 # oro-infra
 
-Infrastructure and conventions for orobobos bricks.
+Infrastructure and conventions for ourochronos bricks.
 
-This repo is the source of truth for how orobobos projects are structured, built, tested, and released. It provides:
+This repo is the source of truth for how ourochronos projects are structured, built, tested, and released. It provides:
 
 - **Standards** — Documented conventions for naming, versioning, APIs, testing, and state ownership
 - **Templates** — Ready-to-use scaffolds for new bricks and composed projects

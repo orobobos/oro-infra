@@ -17,7 +17,7 @@ if [ $# -lt 1 ]; then
 fi
 
 PROJECT_NAME="$1"
-DESCRIPTION="${2:-An orobobos brick}"
+DESCRIPTION="${2:-An ourochronos brick}"
 PACKAGE_NAME="${PROJECT_NAME//-/_}"
 
 # Validate naming
@@ -40,10 +40,10 @@ echo "  Description: $DESCRIPTION"
 echo ""
 
 # Create GitHub repo
-echo "Creating GitHub repo orobobos/$PROJECT_NAME..."
+echo "Creating GitHub repo ourochronos/$PROJECT_NAME..."
 PARENT_DIR="$(dirname "$TARGET_DIR")"
 cd "$PARENT_DIR"
-gh repo create "orobobos/$PROJECT_NAME" --public --description "$DESCRIPTION" --clone
+gh repo create "ourochronos/$PROJECT_NAME" --public --description "$DESCRIPTION" --clone
 
 # Copy template files (non-directory)
 echo "Applying brick template..."
@@ -103,7 +103,7 @@ git push -u origin main
 
 echo ""
 echo "Brick $PROJECT_NAME created successfully!"
-echo "  Repo: https://github.com/orobobos/$PROJECT_NAME"
+echo "  Repo: https://github.com/ourochronos/$PROJECT_NAME"
 echo "  Local: $TARGET_DIR"
 echo ""
 echo "Next steps:"

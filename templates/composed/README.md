@@ -8,7 +8,7 @@ _Brief description of what this project does and what bricks it composes._
 
 ## Bricks
 
-This project composes the following orobobos bricks:
+This project composes the following ourochronos bricks:
 
 - `oro-*` — _description_
 
